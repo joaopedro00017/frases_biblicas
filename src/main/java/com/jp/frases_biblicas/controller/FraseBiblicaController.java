@@ -14,8 +14,8 @@ public class FraseBiblicaController {
     private FraseBiblicaRepository fraseBiblicaRepository;
 
     @GetMapping("/frase")
-    public List<Frase> getAllFrases(){
-        return fraseBiblicaRepository.findAll();
+    public Frase getFraseAleatoria(){
+        return fraseBiblicaRepository.findRamdomFrase();
     }
 }
 

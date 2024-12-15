@@ -5,3 +5,4 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface FraseBiblicaRepository extends JpaRepository<Frase, Long> {
 }
+//iii

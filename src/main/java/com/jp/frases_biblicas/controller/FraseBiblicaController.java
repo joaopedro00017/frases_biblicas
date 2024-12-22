@@ -14,12 +14,12 @@ public class FraseBiblicaController {
     private FraseBiblicaRepository fraseBiblicaRepository;
 
     @GetMapping("/frase-aleatoria")
-    public String getFraseAleatoria() {
-        FraseBiblica frase = fraseBiblicaRepository.findRandomFrase();
-        if (frase != null) {
-            return frase.getFrase();
+    public ResponseEntity<String> getFraseAleatoria() {
+        FraseBiblica frases = fraseBiblicaRepository.findRandomFrases();
+        if (frases != null) {
+            return ResponseEntity.ok(frases.getFrases());
         } else {
-            return "Não foi possível encontrar nenhuma frase no momento.";
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Nenhuma frase encontrada.");
         }
     }
 }

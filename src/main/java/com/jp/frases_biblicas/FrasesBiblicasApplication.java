@@ -8,8 +8,7 @@ public class FrasesBiblicasApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FrasesBiblicasApplication.class, args);
-		System.out.println("Hello World");
-		System.out.println("Funcionou");
+		System.out.println("Tá Rodando");
 	}
 }
 

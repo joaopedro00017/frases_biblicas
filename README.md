@@ -21,6 +21,6 @@ O projeto **Frases Bíblicas** tem como objetivo fornecer uma coleção de frase
 5. Envie um pull request.
 ## Contato
 
-Para dúvidas ou sugestões, entre em contato através do e-mail: [joaopedrodiasandrade8@gmail.co](mailto:joaopedrodiasandrade8@gmail.com).
+Para dúvidas ou sugestões, entre em contato através do e-mail: [joaopedrodiasandrade8@gmail.com](mailto:joaopedrodiasandrade8@gmail.com).
 
 ---
